@@ -1,0 +1,36 @@
+{
+  "profile_type": "ScaledProfile",
+  "public_params": [
+    58.30955075325024,
+    0,
+    0,
+    656.0979214575995,
+    96319.7675842162,
+    152396.32414492345,
+    -892939.3561096,
+    1385689.4467525396,
+    -824338.1881652455,
+    124630.06312269143
+  ],
+  "public_params_comparison_atol": 1.0e-10,
+  "public_params_comparison_rtol": 1.0e-13,
+  "public_params_equal_to_input_within_mixed_tolerance": true,
+  "public_params_max_abs_difference": 1.1641532182693481e-10,
+  "public_params_max_normalized_difference": 0.0014105166039357754,
+  "scale": 58.30955075325024,
+  "shape_driver_constraint": "FixCurrent(eq=eq) freezes every public parameter",
+  "single_scaled_profile_wrapper": true,
+  "underlying_c0_c1_zero": true,
+  "underlying_params": [
+    0,
+    0,
+    656.0979214575995,
+    96319.7675842162,
+    152396.32414492345,
+    -892939.3561096,
+    1385689.4467525396,
+    -824338.1881652455,
+    124630.06312269143
+  ],
+  "underlying_profile_type": "PowerSeriesProfile"
+}

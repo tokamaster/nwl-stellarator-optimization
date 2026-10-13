@@ -1,0 +1,67 @@
+{
+  "after": {
+    "parameter_count": 10,
+    "params": [
+      58.30955075325025,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile_type": "ScaledProfile",
+    "scale": 58.30955075325025,
+    "underlying_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "underlying_profile_type": "PowerSeriesProfile"
+  },
+  "before": {
+    "parameter_count": 10,
+    "params": [
+      58.30955075325025,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile_type": "ScaledProfile",
+    "scale": 58.30955075325025,
+    "underlying_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "underlying_profile_type": "PowerSeriesProfile"
+  },
+  "fixed_Profile.params_indices": [
+    0,
+    1,
+    2
+  ],
+  "production_choice": true,
+  "treatment": "scaled-fix012"
+}

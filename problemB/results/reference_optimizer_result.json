@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "message": "Maximum number of iterations has been exceeded.",
+  "nit": 250,
+  "nfev": 499,
+  "njev": 252,
+  "optimality": 9.847429778782425e-06,
+  "constr_violation": 9.428236275634954e-05
+}

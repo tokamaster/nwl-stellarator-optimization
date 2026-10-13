@@ -1,0 +1,122 @@
+{
+  "all_new_jumps_at_rho_0p01_smaller_than_old": true,
+  "cases": [
+    {
+      "axis_jump_at_rho_0p01_reduction_factor": 23.04931114965438,
+      "new": {
+        "iota_at_rho_0p01": 0.37928293111675115,
+        "iota_at_rho_1e-7": 0.37479003828506957,
+        "iota_axis": 0.3747899949913125,
+        "iota_axis_jump_at_rho_0p01": 0.004492936125438662,
+        "iota_axis_jump_at_rho_1e-7": 4.3293757079343465e-08
+      },
+      "new_jump_at_rho_0p01_smaller_than_old": true,
+      "old": {
+        "iota_at_rho_0p01": 0.44608626922396527,
+        "iota_at_rho_1e-7": 9766.451530001266,
+        "iota_axis": 0.34252718649320696,
+        "iota_axis_jump_at_rho_0p01": 0.10355908273075831,
+        "iota_axis_jump_at_rho_1e-7": 9766.109002814774
+      },
+      "role": "reference"
+    },
+    {
+      "axis_jump_at_rho_0p01_reduction_factor": 27.440058203347093,
+      "new": {
+        "iota_at_rho_0p01": 0.21949489320891183,
+        "iota_at_rho_1e-7": 0.21408850455163292,
+        "iota_axis": 0.21408845159008646,
+        "iota_axis_jump_at_rho_0p01": 0.005406441618825364,
+        "iota_axis_jump_at_rho_1e-7": 5.296154645395568e-08
+      },
+      "new_jump_at_rho_0p01_smaller_than_old": true,
+      "old": {
+        "iota_at_rho_0p01": 0.251669933405581,
+        "iota_at_rho_1e-7": 13989.349001086333,
+        "iota_axis": 0.10331686071201497,
+        "iota_axis_jump_at_rho_0p01": 0.14835307269356607,
+        "iota_axis_jump_at_rho_1e-7": 13989.245684225622
+      },
+      "role": "control"
+    },
+    {
+      "axis_jump_at_rho_0p01_reduction_factor": 20.365062146984936,
+      "new": {
+        "iota_at_rho_0p01": 0.1990067684285611,
+        "iota_at_rho_1e-7": 0.19424979738873158,
+        "iota_axis": 0.1942497513465195,
+        "iota_axis_jump_at_rho_0p01": 0.004757017082041598,
+        "iota_axis_jump_at_rho_1e-7": 4.6042212070718236e-08
+      },
+      "new_jump_at_rho_0p01_smaller_than_old": true,
+      "old": {
+        "iota_at_rho_0p01": 0.3079044059822741,
+        "iota_at_rho_1e-7": 9134.484161813456,
+        "iota_axis": 0.211027457472228,
+        "iota_axis_jump_at_rho_0p01": 0.09687694851004608,
+        "iota_axis_jump_at_rho_1e-7": 9134.273134355984
+      },
+      "role": "parent"
+    },
+    {
+      "axis_jump_at_rho_0p01_reduction_factor": 19.518987801027748,
+      "new": {
+        "iota_at_rho_0p01": 0.196233631491669,
+        "iota_at_rho_1e-7": 0.19133256519250685,
+        "iota_axis": 0.19133251780437235,
+        "iota_axis_jump_at_rho_0p01": 0.004901113687296649,
+        "iota_axis_jump_at_rho_1e-7": 4.738813449978174e-08
+      },
+      "new_jump_at_rho_0p01_smaller_than_old": true,
+      "old": {
+        "iota_at_rho_0p01": 0.30902541443083836,
+        "iota_at_rho_1e-7": 9020.107987812062,
+        "iota_axis": 0.21336063615704495,
+        "iota_axis_jump_at_rho_0p01": 0.09566477827379341,
+        "iota_axis_jump_at_rho_1e-7": 9019.894627175905
+      },
+      "role": "stage1"
+    },
+    {
+      "axis_jump_at_rho_0p01_reduction_factor": 19.70064368844738,
+      "new": {
+        "iota_at_rho_0p01": 0.2076295595879313,
+        "iota_at_rho_1e-7": 0.2027868432484479,
+        "iota_axis": 0.20278679625159027,
+        "iota_axis_jump_at_rho_0p01": 0.004842763336341038,
+        "iota_axis_jump_at_rho_1e-7": 4.699685762776795e-08
+      },
+      "new_jump_at_rho_0p01_smaller_than_old": true,
+      "old": {
+        "iota_at_rho_0p01": 0.3041821425821472,
+        "iota_at_rho_1e-7": 8995.699173104025,
+        "iota_axis": 0.20877658762541576,
+        "iota_axis_jump_at_rho_0p01": 0.09540555495673145,
+        "iota_axis_jump_at_rho_1e-7": 8995.4903965164
+      },
+      "role": "stage2"
+    },
+    {
+      "axis_jump_at_rho_0p01_reduction_factor": 19.51867124474861,
+      "new": {
+        "iota_at_rho_0p01": 0.20343937613340693,
+        "iota_at_rho_1e-7": 0.19883641143788147,
+        "iota_axis": 0.19883636678891609,
+        "iota_axis_jump_at_rho_0p01": 0.004603009344490844,
+        "iota_axis_jump_at_rho_1e-7": 4.464896538602936e-08
+      },
+      "new_jump_at_rho_0p01_smaller_than_old": true,
+      "old": {
+        "iota_at_rho_0p01": 0.3164905673387364,
+        "iota_at_rho_1e-7": 8471.029342142705,
+        "iota_axis": 0.2266459412071138,
+        "iota_axis_jump_at_rho_0p01": 0.08984462613162258,
+        "iota_axis_jump_at_rho_1e-7": 8470.802696201497
+      },
+      "role": "stage3"
+    }
+  ],
+  "generated_utc": "2026-07-22T05:09:17.785473+00:00",
+  "jax_backend": "gpu",
+  "rho_grid": "[0, geomspace(1e-7, 1e-2, 41)]"
+}

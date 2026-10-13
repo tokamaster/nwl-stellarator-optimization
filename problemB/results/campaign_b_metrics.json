@@ -1,0 +1,102 @@
+{
+  "campaign": "Corrected Campaign B paper cases",
+  "diagnostic_source": "data/verification/metrics.json",
+  "cases": [
+    {
+      "paper_role": "qs_focused",
+      "paper_label": "QS-control-moreiter",
+      "source_label": "qs-control",
+      "nwl": {
+        "peak_MW_m2": 0.9644113766874669,
+        "area_weighted_average_MW_m2": 0.5579179290697807,
+        "peaking_factor": 1.7285900424376661,
+        "area_weighted_p95_MW_m2": 0.870173916987457,
+        "area_fraction_above_0p88": 0.035727872600417945,
+        "area_fraction_above_0p90": 0.018367898263653214,
+        "area_fraction_above_0p92": 0.011024324037578281,
+        "area_fraction_above_0p95": 0.0011760583850105356,
+        "area_fraction_above_1p00": 0,
+        "active_cap_MW_m2": null,
+        "area_fraction_above_0p80": 0.10798663420215336
+      },
+      "qs_normalized": {
+        "max": 0.00015765143409156716,
+        "rms": 1.991893942346722e-05
+      },
+      "force_normalized": {
+        "max": 4.732847127261591e-05,
+        "rms": 8.833158192622213e-06
+      },
+      "iota": {
+        "min": 0.1636566688137728,
+        "mean": 0.41543068025332297,
+        "max": 0.558372062250972,
+        "near_axis_jump_at_rho_1e_minus_7": 5.604210651100061e-08
+      },
+      "aspect_ratio": 6.000001713713325,
+      "wall_area_weighted_mean_m": 0.15266789430024014,
+      "solver": {
+        "outer_success": false,
+        "outer_iterations": 250,
+        "outer_optimality": 9.847429778782425e-06,
+        "outer_constraint_violation": 9.428236275634954e-05,
+        "post_solve_success": true,
+        "post_solve_iterations": 20,
+        "post_solve_optimality": 1.2847878368304471e-09
+      }
+    },
+    {
+      "paper_role": "nwl_aware",
+      "paper_label": "NWL-aware (Stage 3)",
+      "source_label": "stage-3",
+      "nwl": {
+        "peak_MW_m2": 0.7983251389771882,
+        "area_weighted_average_MW_m2": 0.48557431996637385,
+        "peaking_factor": 1.6440843474433993,
+        "area_weighted_p95_MW_m2": 0.77397954168482,
+        "area_fraction_above_0p88": 0,
+        "area_fraction_above_0p90": 0,
+        "area_fraction_above_0p92": 0,
+        "area_fraction_above_0p95": 0,
+        "area_fraction_above_1p00": 0,
+        "active_cap_MW_m2": 0.79,
+        "area_fraction_above_0p80": 0.0
+      },
+      "qs_normalized": {
+        "max": 0.0004060573428954583,
+        "rms": 5.29435110543358e-05
+      },
+      "force_normalized": {
+        "max": 0.0001500883983447438,
+        "rms": 2.3383955848601797e-05
+      },
+      "iota": {
+        "min": 0.1988363667889161,
+        "mean": 0.4094928917945741,
+        "max": 0.5408424698720665,
+        "near_axis_jump_at_rho_1e_minus_7": 4.464896538602936e-08
+      },
+      "aspect_ratio": 5.999995375858029,
+      "wall_area_weighted_mean_m": 0.15480155113366617,
+      "solver": {
+        "outer_success": false,
+        "outer_iterations": 500,
+        "outer_optimality": 0.0003187764715578898,
+        "outer_constraint_violation": 0.0002494312665562552,
+        "post_solve_success": true,
+        "post_solve_iterations": 13,
+        "post_solve_optimality": 9.683534098367264e-09
+      }
+    }
+  ],
+  "stage_3_relative_to_qs_control_moreiter_percent": {
+    "nwl_peak": -17.22151373625922,
+    "nwl_area_weighted_average": -12.966711649511907,
+    "nwl_area_weighted_p95": -11.054614879248748,
+    "nwl_peaking_factor": -4.888706571229373,
+    "qs_normalized_max": 157.56653926764278,
+    "qs_normalized_rms": 165.79482937711606,
+    "force_normalized_max": 217.12074003029213,
+    "force_normalized_rms": 164.72927732838474
+  }
+}

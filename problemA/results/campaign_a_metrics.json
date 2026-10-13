@@ -1,0 +1,128 @@
+{
+  "campaign": "Corrected fixed-LCFS Problem A",
+  "common_nwl_grid": {
+    "theta_points": 30,
+    "zeta_points": 30
+  },
+  "definitions": {
+    "iota_mean": "arithmetic mean on the plotted uniform 101-point grid",
+    "nwl_average": "offset-wall surface-area average",
+    "nwl_p95": "area-weighted 95th percentile",
+    "profile_grid": "uniform rho=0..1 with 101 points",
+    "wall_thresholds": "strictly greater than the stated MW/m^2 threshold"
+  },
+  "fixed_boundary_max_abs_difference_m": {
+    "R_lmn": 7.771561172376096e-16,
+    "Z_lmn": 4.336808689942018e-18
+  },
+  "near_axis_high_resolution": {
+    "baseline": {
+      "current_axis_A": 0,
+      "current_r_axis_A": 1.2373802207453436e-09,
+      "iota_at_rho_1e-7": 0.37461944734110986,
+      "iota_axis": 0.3746194038789588,
+      "iota_axis_jump_at_rho_1e-7": 4.3462151044781905e-08
+    },
+    "relaxed_candidate": {
+      "current_axis_A": 0,
+      "current_r_axis_A": 1.124891109768494e-09,
+      "iota_at_rho_1e-7": 0.05727993361667871,
+      "iota_axis": 0.057279752181343305,
+      "iota_axis_jump_at_rho_1e-7": 1.8143533540848633e-07
+    }
+  },
+  "nwl_aware_changes_from_reference": {
+    "area_average_nwl_mw_m2": {
+      "absolute": -0.0032484402067939344,
+      "percent": -0.629301406659597
+    },
+    "area_fraction_above_0p80": {
+      "absolute_fraction": -0.07126829957444585,
+      "absolute_percentage_points": -7.126829957444585
+    },
+    "area_weighted_p95_nwl_mw_m2": {
+      "absolute": -0.07479610135296,
+      "percent": -9.09680802170021
+    },
+    "edge_current_MA": {
+      "absolute": 1.126137842950358,
+      "percent": 45.538485698486596
+    },
+    "force_normalized_max": {
+      "absolute": 0.0007417146991503517,
+      "percent": 307.48521508599924
+    },
+    "iota_min_uniform_101": {
+      "absolute": -0.3173396516976157,
+      "percent": -84.70988112515109
+    },
+    "peak_nwl_mw_m2": {
+      "absolute": -0.12814653217886818,
+      "percent": -13.839800330117633
+    },
+    "peaking_factor": {
+      "absolute": -0.23846340222722273,
+      "percent": -13.29415925465112
+    },
+    "qs_normalized_max": {
+      "absolute": 6.451012867153007e-05,
+      "percent": 39.30208072443623
+    }
+  },
+  "paper_cases": [
+    {
+      "area_average_nwl_mw_m2": 0.516197830231625,
+      "area_fraction_above_0p80": 0.07126829957444585,
+      "area_fraction_above_0p85": 0.02641690665073692,
+      "area_fraction_above_0p90": 0.006079625600400621,
+      "area_weighted_p95_nwl_mw_m2": 0.8222235884778016,
+      "aspect_ratio": 5.999999678977227,
+      "case": "Reference",
+      "edge_current_MA": 2.4729365188087127,
+      "final_force_solve_success": true,
+      "force_normalized_max": 0.0002412196303301623,
+      "iota_axis": 0.37461940387895887,
+      "iota_edge": 0.6314039432600234,
+      "iota_max_uniform_101": 0.6465929186158533,
+      "iota_mean_uniform_101": 0.54885501919037,
+      "iota_min_uniform_101": 0.37461940387895887,
+      "matched_wall_distance_max_m": 0.18234444901096591,
+      "matched_wall_distance_mean_m": 0.15652373108299045,
+      "matched_wall_distance_min_m": 0.13938458947866927,
+      "minimum_enclosed_current_MA": 0,
+      "outer_optimizer_success": false,
+      "peak_nwl_mw_m2": 0.925927608218456,
+      "peaking_factor": 1.7937456416718753,
+      "qs_normalized_max": 0.0001641392198134198,
+      "requested_wall_offset_m": 0.15,
+      "rho_at_minimum_enclosed_current": 0
+    },
+    {
+      "area_average_nwl_mw_m2": 0.5129493900248311,
+      "area_fraction_above_0p80": 0,
+      "area_fraction_above_0p85": 0,
+      "area_fraction_above_0p90": 0,
+      "area_weighted_p95_nwl_mw_m2": 0.7474274871248416,
+      "aspect_ratio": 5.999999678971942,
+      "case": "NWL-aware",
+      "edge_current_MA": 3.5990743617590706,
+      "final_force_solve_success": true,
+      "force_normalized_max": 0.000982934329480514,
+      "iota_axis": 0.05727975218134321,
+      "iota_edge": 0.6760168493158869,
+      "iota_max_uniform_101": 0.7775730571665683,
+      "iota_mean_uniform_101": 0.5736153658892371,
+      "iota_min_uniform_101": 0.05727975218134321,
+      "matched_wall_distance_max_m": 0.18234444895484853,
+      "matched_wall_distance_mean_m": 0.15652373104310624,
+      "matched_wall_distance_min_m": 0.13938458973062703,
+      "minimum_enclosed_current_MA": -0.19858573696631085,
+      "outer_optimizer_success": false,
+      "peak_nwl_mw_m2": 0.7977810760395878,
+      "peaking_factor": 1.5552822394446526,
+      "qs_normalized_max": 0.00022864934848494987,
+      "requested_wall_offset_m": 0.15,
+      "rho_at_minimum_enclosed_current": 0.24
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "cases": {
+    "NWL-aware": {
+      "B_ref_T": 4.847584190092049,
+      "J_ref_A_per_m2": 1900327.1718775588,
+      "grids": {
+        "angular_check": {
+          "M": 32,
+          "N": 32,
+          "max_abs_normalized": 0.7392672286109997,
+          "max_abs_physical_A_T_per_m2": 6810126.719182065,
+          "mean_abs_normalized": 0.2300459345447443,
+          "nrho": 16,
+          "ntheta": 33,
+          "nzeta": 65,
+          "rho_at_max_abs": 0.03125,
+          "rho_max": 0.96875,
+          "rho_min": 0.03125,
+          "rms_normalized": 0.2986598478248115,
+          "unit_weight_objective_cost": 0.044598852351369775
+        },
+        "optimization_grid": {
+          "M": 16,
+          "N": 16,
+          "max_abs_normalized": 0.7391203684935578,
+          "max_abs_physical_A_T_per_m2": 6808773.844374328,
+          "mean_abs_normalized": 0.23001738932077886,
+          "nrho": 16,
+          "ntheta": 17,
+          "nzeta": 33,
+          "rho_at_max_abs": 0.03125,
+          "rho_max": 0.96875,
+          "rho_min": 0.03125,
+          "rms_normalized": 0.2986019548721027,
+          "unit_weight_objective_cost": 0.04458156372672064
+        },
+        "refined_grid": {
+          "M": 32,
+          "N": 32,
+          "max_abs_normalized": 0.7884728816586696,
+          "max_abs_physical_A_T_per_m2": 7263408.9959906135,
+          "mean_abs_normalized": 0.22938665423281684,
+          "nrho": 32,
+          "ntheta": 33,
+          "nzeta": 65,
+          "rho_at_max_abs": 0.015625,
+          "rho_max": 0.984375,
+          "rho_min": 0.015625,
+          "rms_normalized": 0.30021114598540066,
+          "unit_weight_objective_cost": 0.04506336608693377
+        }
+      },
+      "normalization_Jref_Bref": 9211995.95439599,
+      "resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "NFP": 2,
+        "N_grid": 16
+      }
+    },
+    "Reference": {
+      "B_ref_T": 4.847584190092049,
+      "J_ref_A_per_m2": 1900327.1718775588,
+      "grids": {
+        "angular_check": {
+          "M": 32,
+          "N": 32,
+          "max_abs_normalized": 0.004073637476807074,
+          "max_abs_physical_A_T_per_m2": 37526.33195602265,
+          "mean_abs_normalized": 0.001399488423905677,
+          "nrho": 16,
+          "ntheta": 33,
+          "nzeta": 65,
+          "rho_at_max_abs": 0.90625,
+          "rho_max": 0.96875,
+          "rho_min": 0.03125,
+          "rms_normalized": 0.001788050583497945,
+          "unit_weight_objective_cost": 1.5985624445736708e-06
+        },
+        "optimization_grid": {
+          "M": 16,
+          "N": 16,
+          "max_abs_normalized": 0.004317045819483218,
+          "max_abs_physical_A_T_per_m2": 39768.60862402152,
+          "mean_abs_normalized": 0.0014043093433361061,
+          "nrho": 16,
+          "ntheta": 17,
+          "nzeta": 33,
+          "rho_at_max_abs": 0.90625,
+          "rho_max": 0.96875,
+          "rho_min": 0.03125,
+          "rms_normalized": 0.0017688652583619845,
+          "unit_weight_objective_cost": 1.564442151120005e-06
+        },
+        "refined_grid": {
+          "M": 32,
+          "N": 32,
+          "max_abs_normalized": 0.02039705042900068,
+          "max_abs_physical_A_T_per_m2": 187897.54603356528,
+          "mean_abs_normalized": 0.0021229949869113383,
+          "nrho": 32,
+          "ntheta": 33,
+          "nzeta": 65,
+          "rho_at_max_abs": 0.984375,
+          "rho_max": 0.984375,
+          "rho_min": 0.015625,
+          "rms_normalized": 0.004217245313615513,
+          "unit_weight_objective_cost": 8.892579017606004e-06
+        }
+      },
+      "normalization_Jref_Bref": 9211995.95439599,
+      "resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "NFP": 2,
+        "N_grid": 16
+      }
+    }
+  },
+  "complete": true,
+  "definition": "max_rho abs(<J*B>_MHD - <J*B>_Redl)/(J_ref B_ref), with DESC normalization, QA helicity (1,0), no optimization or quadrature weights in the pointwise residual; mean and RMS use uniform midpoint radial quadrature.",
+  "normalization_relative_difference_between_cases": 0,
+  "nwl_aware_over_reference_max_ratio": {
+    "angular_check": 181.47594939902189,
+    "optimization_grid": 171.20975764441528,
+    "refined_grid": 38.65622063362715
+  }
+}

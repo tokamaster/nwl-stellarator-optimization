@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "message": "A bad approximation caused failure to predict improvement.",
+  "nit": 5,
+  "nfev": 35,
+  "njev": 5,
+  "optimality": 0.004640673200419543
+}

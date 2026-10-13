@@ -1,0 +1,48 @@
+{
+  "case": "max-cap",
+  "ftol": 1.0e-05,
+  "gtol": 1.0e-16,
+  "iota_target": 0.42,
+  "jac_chunk_size": 75,
+  "jax_backend": "gpu",
+  "jax_version": "0.9.2",
+  "maxiter": 500,
+  "nwl_cap_mw_m2": 0.79,
+  "nwl_implementation": "desc.objectives.NeutronWallLoading",
+  "nwl_source_grid": "None; native QuadratureGrid",
+  "nwl_surface_grid": {
+    "NFP": "loaded equilibrium NFP",
+    "theta": 30,
+    "zeta": 30
+  },
+  "nwl_weight": 10,
+  "offset_m": 0.15,
+  "process_invariants": {
+    "fixed_constraints": [
+      "FixAtomicNumber",
+      "FixCurrent (all public parameters)",
+      "FixElectronDensity",
+      "FixElectronTemperature",
+      "FixIonTemperature",
+      "FixPsi",
+      "FixBoundaryR mode [0,0,0]",
+      "ForceBalance",
+      "RotationalTransform mean target",
+      "AspectRatio initial target"
+    ],
+    "objective": "QuasisymmetryTripleProduct only",
+    "optimization_stage": "single-stage equilibrium-only LCFS shape optimization",
+    "optimizer": "lsq-auglag",
+    "postprocess": "fixed-boundary equilibrium solve after lsq-auglag",
+    "qs_grid": "LinearGrid(rho=linspace(0,0.9999,10), theta=25, zeta=25)",
+    "wall_semantics": "0.15 m conformal wall follows current LCFS"
+  },
+  "qs_grid": {
+    "rho": 10,
+    "rho_max": 0.9999,
+    "theta": 25,
+    "zeta": 25
+  },
+  "smoke": false,
+  "solve_ftol": 1.0e-08
+}

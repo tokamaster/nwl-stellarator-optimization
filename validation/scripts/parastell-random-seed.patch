@@ -1,0 +1,10 @@
+--- a/parastell/nwl_utils.py
++++ b/parastell/nwl_utils.py
+@@ -23,1 +23,1 @@
+-def fire_rays(dagmc_geom, source_mesh, toroidal_extent, strengths, num_parts):
++def fire_rays(dagmc_geom, source_mesh, toroidal_extent, strengths, num_parts, random_seed=False):
+@@ -69,2 +69,4 @@
+     settings.batches = 1
++    if random_seed:
++        settings.seed = np.random.randint(1, 1e8)
+ 

@@ -1,0 +1,323 @@
+{
+  "cases": [
+    {
+      "checks": {
+        "current_params_match_reference_within_mixed_tolerance": true,
+        "near_axis_iota_continuous_at_1e-7": true,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true
+      },
+      "current_axis_A": 0,
+      "current_params_comparison_atol": 1.0e-10,
+      "current_params_comparison_rtol": 1.0e-13,
+      "current_params_max_abs_difference_from_reference": 0,
+      "current_params_max_normalized_difference_from_reference": 0,
+      "current_profile": {
+        "profile_type": "ScaledProfile",
+        "public_params": [
+          58.30955075325024,
+          0,
+          0,
+          656.0979214575996,
+          96319.76758421621,
+          152396.32414492345,
+          -892939.3561096002,
+          1385689.4467525396,
+          -824338.1881652459,
+          124630.06312269144
+        ],
+        "scale": 58.30955075325024,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true,
+        "underlying_params": [
+          0,
+          0,
+          656.0979214575996,
+          96319.76758421621,
+          152396.32414492345,
+          -892939.3561096002,
+          1385689.4467525396,
+          -824338.1881652459,
+          124630.06312269144
+        ],
+        "underlying_profile_type": "PowerSeriesProfile"
+      },
+      "current_r_axis_A": 1.0686465542800694e-09,
+      "iota_at_rho_0p01": 0.37928293111675115,
+      "iota_at_rho_1e-7": 0.37479003828506957,
+      "iota_axis": 0.3747899949913125,
+      "iota_axis_jump_at_rho_0p01": 0.004492936125438662,
+      "iota_axis_jump_at_rho_1e-7": 4.3293757079343465e-08,
+      "iota_range_rho_le_0p05": 0.02354380970261749,
+      "label": "reference",
+      "role": "reference"
+    },
+    {
+      "checks": {
+        "current_params_match_reference_within_mixed_tolerance": true,
+        "near_axis_iota_continuous_at_1e-7": true,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true
+      },
+      "current_axis_A": 0,
+      "current_params_comparison_atol": 1.0e-10,
+      "current_params_comparison_rtol": 1.0e-13,
+      "current_params_max_abs_difference_from_reference": 2.3283064365386963e-10,
+      "current_params_max_normalized_difference_from_reference": 0.00282103320787155,
+      "current_profile": {
+        "profile_type": "ScaledProfile",
+        "public_params": [
+          58.30955075325022,
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492342,
+          -892939.3561096,
+          1385689.4467525394,
+          -824338.1881652457,
+          124630.06312269143
+        ],
+        "scale": 58.30955075325022,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true,
+        "underlying_params": [
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492342,
+          -892939.3561096,
+          1385689.4467525394,
+          -824338.1881652457,
+          124630.06312269143
+        ],
+        "underlying_profile_type": "PowerSeriesProfile"
+      },
+      "current_r_axis_A": 2.531004996979112e-10,
+      "iota_at_rho_0p01": 0.1694174721350457,
+      "iota_at_rho_1e-7": 0.16365672485587937,
+      "iota_axis": 0.16365666881377286,
+      "iota_axis_jump_at_rho_0p01": 0.0057608033212728504,
+      "iota_axis_jump_at_rho_1e-7": 5.604210651100061e-08,
+      "iota_range_rho_le_0p05": 0.030681434359474374,
+      "label": "qs-control",
+      "role": "control"
+    },
+    {
+      "checks": {
+        "current_params_match_reference_within_mixed_tolerance": true,
+        "near_axis_iota_continuous_at_1e-7": true,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true
+      },
+      "current_axis_A": 0,
+      "current_params_comparison_atol": 1.0e-10,
+      "current_params_comparison_rtol": 1.0e-13,
+      "current_params_max_abs_difference_from_reference": 2.3283064365386963e-10,
+      "current_params_max_normalized_difference_from_reference": 0.00282103320787155,
+      "current_profile": {
+        "profile_type": "ScaledProfile",
+        "public_params": [
+          58.309550753250235,
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096002,
+          1385689.4467525396,
+          -824338.1881652457,
+          124630.06312269143
+        ],
+        "scale": 58.309550753250235,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true,
+        "underlying_params": [
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096002,
+          1385689.4467525396,
+          -824338.1881652457,
+          124630.06312269143
+        ],
+        "underlying_profile_type": "PowerSeriesProfile"
+      },
+      "current_r_axis_A": 4.780787216516101e-10,
+      "iota_at_rho_0p01": 0.1990067684285611,
+      "iota_at_rho_1e-7": 0.19424979738873158,
+      "iota_axis": 0.1942497513465195,
+      "iota_axis_jump_at_rho_0p01": 0.004757017082041598,
+      "iota_axis_jump_at_rho_1e-7": 4.6042212070718236e-08,
+      "iota_range_rho_le_0p05": 0.025423852022658372,
+      "label": "parent",
+      "role": "parent"
+    },
+    {
+      "checks": {
+        "current_params_match_reference_within_mixed_tolerance": true,
+        "near_axis_iota_continuous_at_1e-7": true,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true
+      },
+      "current_axis_A": 0,
+      "current_params_comparison_atol": 1.0e-10,
+      "current_params_comparison_rtol": 1.0e-13,
+      "current_params_max_abs_difference_from_reference": 2.3283064365386963e-10,
+      "current_params_max_normalized_difference_from_reference": 0.00282103320787155,
+      "current_profile": {
+        "profile_type": "ScaledProfile",
+        "public_params": [
+          58.309550753250235,
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096002,
+          1385689.4467525396,
+          -824338.1881652457,
+          124630.06312269143
+        ],
+        "scale": 58.309550753250235,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true,
+        "underlying_params": [
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096002,
+          1385689.4467525396,
+          -824338.1881652457,
+          124630.06312269143
+        ],
+        "underlying_profile_type": "PowerSeriesProfile"
+      },
+      "current_r_axis_A": 6.749346658610965e-10,
+      "iota_at_rho_0p01": 0.196233631491669,
+      "iota_at_rho_1e-7": 0.19133256519250685,
+      "iota_axis": 0.19133251780437235,
+      "iota_axis_jump_at_rho_0p01": 0.004901113687296649,
+      "iota_axis_jump_at_rho_1e-7": 4.738813449978174e-08,
+      "iota_range_rho_le_0p05": 0.026171067404958198,
+      "label": "stage-1",
+      "role": "stage1"
+    },
+    {
+      "checks": {
+        "current_params_match_reference_within_mixed_tolerance": true,
+        "near_axis_iota_continuous_at_1e-7": true,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true
+      },
+      "current_axis_A": 0,
+      "current_params_comparison_atol": 1.0e-10,
+      "current_params_comparison_rtol": 1.0e-13,
+      "current_params_max_abs_difference_from_reference": 3.4924596548080444e-10,
+      "current_params_max_normalized_difference_from_reference": 0.004231549811807325,
+      "current_profile": {
+        "profile_type": "ScaledProfile",
+        "public_params": [
+          58.309550753250235,
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096,
+          1385689.4467525396,
+          -824338.1881652456,
+          124630.06312269143
+        ],
+        "scale": 58.309550753250235,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true,
+        "underlying_params": [
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096,
+          1385689.4467525396,
+          -824338.1881652456,
+          124630.06312269143
+        ],
+        "underlying_profile_type": "PowerSeriesProfile"
+      },
+      "current_r_axis_A": 6.186901103726718e-10,
+      "iota_at_rho_0p01": 0.2076295595879313,
+      "iota_at_rho_1e-7": 0.2027868432484479,
+      "iota_axis": 0.20278679625159027,
+      "iota_axis_jump_at_rho_0p01": 0.004842763336341038,
+      "iota_axis_jump_at_rho_1e-7": 4.699685762776795e-08,
+      "iota_range_rho_le_0p05": 0.025744322486670218,
+      "label": "stage-2",
+      "role": "stage2"
+    },
+    {
+      "checks": {
+        "current_params_match_reference_within_mixed_tolerance": true,
+        "near_axis_iota_continuous_at_1e-7": true,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true
+      },
+      "current_axis_A": 0,
+      "current_params_comparison_atol": 1.0e-10,
+      "current_params_comparison_rtol": 1.0e-13,
+      "current_params_max_abs_difference_from_reference": 4.656612873077393e-10,
+      "current_params_max_normalized_difference_from_reference": 0.0056420664157431,
+      "current_profile": {
+        "profile_type": "ScaledProfile",
+        "public_params": [
+          58.30955075325024,
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096,
+          1385689.4467525396,
+          -824338.1881652455,
+          124630.06312269143
+        ],
+        "scale": 58.30955075325024,
+        "single_scaled_profile_wrapper": true,
+        "underlying_c0_c1_zero": true,
+        "underlying_params": [
+          0,
+          0,
+          656.0979214575995,
+          96319.7675842162,
+          152396.32414492345,
+          -892939.3561096,
+          1385689.4467525396,
+          -824338.1881652455,
+          124630.06312269143
+        ],
+        "underlying_profile_type": "PowerSeriesProfile"
+      },
+      "current_r_axis_A": 6.186901103726718e-10,
+      "iota_at_rho_0p01": 0.20343937613340693,
+      "iota_at_rho_1e-7": 0.19883641143788147,
+      "iota_axis": 0.19883636678891609,
+      "iota_axis_jump_at_rho_0p01": 0.004603009344490844,
+      "iota_axis_jump_at_rho_1e-7": 4.464896538602936e-08,
+      "iota_range_rho_le_0p05": 0.024552657405568418,
+      "label": "stage-3",
+      "role": "stage3"
+    }
+  ],
+  "device": "gpu",
+  "generated_utc": "2026-07-22T06:17:24.646729+00:00",
+  "high_resolution_grid": {
+    "angular_resolution": "M=2*eq.M_grid, N=2*eq.N_grid",
+    "rho": "[0, geomspace(1e-7, 1e-2, 41)]"
+  },
+  "jax_backend": "gpu"
+}

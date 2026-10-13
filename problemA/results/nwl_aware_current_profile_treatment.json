@@ -1,0 +1,38 @@
+{
+  "fixed_Profile.params_indices": [
+    0,
+    1,
+    2
+  ],
+  "loaded": {
+    "parameter_count": 10,
+    "params": [
+      58.30955075325024,
+      0,
+      0,
+      -201922.13173787878,
+      704187.6744380688,
+      -305873.2936302755,
+      -548952.0935437161,
+      1145777.154255642,
+      -1291406.2723747734,
+      560130.159403994
+    ],
+    "profile_type": "ScaledProfile",
+    "scale": 58.30955075325024,
+    "underlying_params": [
+      0,
+      0,
+      -201922.13173787878,
+      704187.6744380688,
+      -305873.2936302755,
+      -548952.0935437161,
+      1145777.154255642,
+      -1291406.2723747734,
+      560130.159403994
+    ],
+    "underlying_profile_type": "PowerSeriesProfile"
+  },
+  "source": "loaded corrected stage-1 endpoint",
+  "treatment": "scaled-fix012"
+}

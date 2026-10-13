@@ -1,0 +1,35 @@
+{
+  "case": "baseline",
+  "current_profile_treatment": "scaled-fix012",
+  "device": "gpu",
+  "diag_iota_rho": 101,
+  "diag_nwl_theta": 30,
+  "diag_nwl_zeta": 30,
+  "diag_source_rho": 10,
+  "diag_source_theta": 25,
+  "diag_source_zeta": 25,
+  "fixed_current_parameter_indices": [
+    0,
+    1,
+    2
+  ],
+  "ftol": 1.0e-06,
+  "gtol": 1.0e-16,
+  "jac_chunk_size": 75,
+  "maxiter": 50,
+  "nwl_cap": 0.9,
+  "nwl_source_grid": "DESC native QuadratureGrid default",
+  "nwl_weight": 1,
+  "offset": 0.15,
+  "opt_nwl_theta": 24,
+  "opt_nwl_zeta": 24,
+  "peaking_alpha": 20,
+  "peaking_weight": 1,
+  "skip_final_solve": false,
+  "solve_ftol": 0.001,
+  "thresholds": [
+    0.9,
+    0.95,
+    1
+  ]
+}

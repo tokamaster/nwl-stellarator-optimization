@@ -1,0 +1,832 @@
+{
+  "cases": [
+    {
+      "NFP": 2,
+      "artifacts": {
+        "nwl_histogram_png": "reference_nwl_histogram.png",
+        "nwl_map_png": "reference_nwl_map.png",
+        "wall_h5": "reference_offset_0p15m.h5"
+      },
+      "aspect_ratio": 5.999999677432402,
+      "design_checks": {
+        "active_nwl_cap_MW_m2": null
+      },
+      "force_balance": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 8750,
+          "max_abs": 9.02648869990586e-05,
+          "mean_abs": 1.4461794701645976e-05,
+          "min_abs": 3.497562558696519e-18,
+          "rms": 1.9717607895156275e-05,
+          "signed_mean": 1.077072785559394e-07
+        },
+        "objective": "ForceBalance",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 8750,
+          "max_abs": 1134189.8101537894,
+          "mean_abs": 111716.85384666052,
+          "min_abs": 3.34906263854839e-08,
+          "rms": 173557.6343701931,
+          "signed_mean": 1319.919020989345
+        },
+        "saved_endpoint_interpretation": "Force-balance error recomputed from the reloaded final H5 endpoint; this diagnostic does not claim optimizer convergence."
+      },
+      "label": "reference",
+      "nwl": {
+        "area_fraction_above_threshold": {
+          "0.88": 0.005689888594195757,
+          "0.90": 0.0011433470985684848,
+          "0.92": 0.0011433470985684848,
+          "0.95": 0,
+          "1.00": 0
+        },
+        "area_weighted_average_MW_m2": 0.5153100978847702,
+        "area_weighted_p95_MW_m2": 0.8214431682709983,
+        "method": "desc.objectives.NeutronWallLoading",
+        "native_source_grid": {
+          "NFP": 2,
+          "class": "desc.grid.QuadratureGrid",
+          "num_nodes": 9801,
+          "num_rho": 9,
+          "num_theta": 33,
+          "num_zeta": 33,
+          "sym": false
+        },
+        "offset_m": 0.15,
+        "peak_MW_m2": 0.9255534266576985,
+        "peaking_factor": 1.7961096249751034,
+        "sample_count": 1600,
+        "source_grid_argument": null,
+        "surface_area_full_torus_m2": 969.8706857196621,
+        "surface_grid": {
+          "NFP": 2,
+          "class": "desc.grid.LinearGrid",
+          "num_nodes": 1600,
+          "num_rho": 1,
+          "num_theta": 40,
+          "num_zeta": 40,
+          "sym": false
+        }
+      },
+      "quasisymmetry": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 6250,
+          "max_abs": 0.00024980528604764664,
+          "mean_abs": 1.223754077636334e-05,
+          "min_abs": 0,
+          "rms": 2.379016710653141e-05,
+          "signed_mean": -1.5987211554602255e-19
+        },
+        "objective": "QuasisymmetryTripleProduct",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 6250,
+          "max_abs": 0.06703615571800227,
+          "mean_abs": 0.003283988509887754,
+          "min_abs": 0,
+          "rms": 0.006384177740764663,
+          "signed_mean": -4.277467269275803e-17
+        }
+      },
+      "role": "reference",
+      "rotational_transform": {
+        "count": 51,
+        "max": 0.6466054334033522,
+        "mean": 0.5484206192079462,
+        "min": 0.37478999499131266,
+        "rho_count": 51,
+        "rms": 0.5544724777102071
+      },
+      "saved_output_only": true,
+      "slug": "reference",
+      "stored_equilibrium_resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "N_grid": 16
+      },
+      "wall": {
+        "area_weighted_mean_minus_requested_m": 0.005184965792183055,
+        "distance_method": "Matched-parameter Cartesian distance plus nearest sampled Cartesian plasma point after full-period replication.",
+        "matched_parameter_distance_m": {
+          "area_weighted_mean": 0.15518496579218305,
+          "count": 1600,
+          "max": 0.1825847043419584,
+          "mean": 0.1565235371225869,
+          "min": 0.13776442793272603,
+          "rms": 0.1567303023669025
+        },
+        "maximum_abs_matched_deviation_m": 0.0325847043419584,
+        "nearest_sampled_distance_m": {
+          "area_weighted_mean": 0.15518496579218305,
+          "count": 1600,
+          "max": 0.1825847043419584,
+          "mean": 0.1565235371225869,
+          "min": 0.13776442793272603,
+          "rms": 0.1567303023669025
+        },
+        "offset_tolerance_m": 0.02,
+        "requested_offset_m": 0.15
+      }
+    },
+    {
+      "NFP": 2,
+      "artifacts": {
+        "nwl_histogram_png": "qs-control_nwl_histogram.png",
+        "nwl_map_png": "qs-control_nwl_map.png",
+        "wall_h5": "qs-control_offset_0p15m.h5"
+      },
+      "aspect_ratio": 6.000001713713325,
+      "design_checks": {
+        "active_nwl_cap_MW_m2": null
+      },
+      "force_balance": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 8750,
+          "max_abs": 4.732847127261591e-05,
+          "mean_abs": 6.352232226524551e-06,
+          "min_abs": 2.293529708006659e-18,
+          "rms": 8.833158192622213e-06,
+          "signed_mean": 4.336299477188089e-08
+        },
+        "objective": "ForceBalance",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 8750,
+          "max_abs": 899629.206807323,
+          "mean_abs": 72122.08276517641,
+          "min_abs": 3.290191667844712e-08,
+          "rms": 121268.81941258725,
+          "signed_mean": -180.6616062803149
+        },
+        "saved_endpoint_interpretation": "Force-balance error recomputed from the reloaded final H5 endpoint; this diagnostic does not claim optimizer convergence."
+      },
+      "label": "qs-control",
+      "nwl": {
+        "area_fraction_above_threshold": {
+          "0.88": 0.035727872600417945,
+          "0.90": 0.018367898263653214,
+          "0.92": 0.011024324037578281,
+          "0.95": 0.0011760583850105356,
+          "1.00": 0
+        },
+        "area_weighted_average_MW_m2": 0.5579179290697807,
+        "area_weighted_p95_MW_m2": 0.870173916987457,
+        "method": "desc.objectives.NeutronWallLoading",
+        "native_source_grid": {
+          "NFP": 2,
+          "class": "desc.grid.QuadratureGrid",
+          "num_nodes": 9801,
+          "num_rho": 9,
+          "num_theta": 33,
+          "num_zeta": 33,
+          "sym": false
+        },
+        "offset_m": 0.15,
+        "peak_MW_m2": 0.9644113766874669,
+        "peaking_factor": 1.7285900424376661,
+        "sample_count": 1600,
+        "source_grid_argument": null,
+        "surface_area_full_torus_m2": 918.604026600395,
+        "surface_grid": {
+          "NFP": 2,
+          "class": "desc.grid.LinearGrid",
+          "num_nodes": 1600,
+          "num_rho": 1,
+          "num_theta": 40,
+          "num_zeta": 40,
+          "sym": false
+        }
+      },
+      "quasisymmetry": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 6250,
+          "max_abs": 0.00015765143409156716,
+          "mean_abs": 1.0948370157484284e-05,
+          "min_abs": 0,
+          "rms": 1.991893942346722e-05,
+          "signed_mean": 4.85722573273506e-20
+        },
+        "objective": "QuasisymmetryTripleProduct",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 6250,
+          "max_abs": 0.13733821948197542,
+          "mean_abs": 0.009537684654268023,
+          "min_abs": 0,
+          "rms": 0.017352405895650805,
+          "signed_mean": 4.234834705130197e-17
+        }
+      },
+      "role": "control",
+      "rotational_transform": {
+        "count": 51,
+        "max": 0.558372062250972,
+        "mean": 0.41543068025332297,
+        "min": 0.1636566688137728,
+        "rho_count": 51,
+        "rms": 0.43294839877237656
+      },
+      "saved_output_only": true,
+      "slug": "qs-control",
+      "stored_equilibrium_resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "N_grid": 16
+      },
+      "wall": {
+        "area_weighted_mean_minus_requested_m": 0.0026678943002401423,
+        "distance_method": "Matched-parameter Cartesian distance plus nearest sampled Cartesian plasma point after full-period replication.",
+        "matched_parameter_distance_m": {
+          "area_weighted_mean": 0.15266789430024014,
+          "count": 1600,
+          "max": 0.1738379229351263,
+          "mean": 0.1540947925525546,
+          "min": 0.1376580541828273,
+          "rms": 0.15421495467721458
+        },
+        "maximum_abs_matched_deviation_m": 0.023837922935126293,
+        "nearest_sampled_distance_m": {
+          "area_weighted_mean": 0.15266789430024014,
+          "count": 1600,
+          "max": 0.1738379229351263,
+          "mean": 0.1540947925525546,
+          "min": 0.1376580541828273,
+          "rms": 0.15421495467721458
+        },
+        "offset_tolerance_m": 0.02,
+        "requested_offset_m": 0.15
+      }
+    },
+    {
+      "NFP": 2,
+      "artifacts": {
+        "nwl_histogram_png": "parent_nwl_histogram.png",
+        "nwl_map_png": "parent_nwl_map.png",
+        "wall_h5": "parent_offset_0p15m.h5"
+      },
+      "aspect_ratio": 5.999965564634686,
+      "design_checks": {
+        "active_nwl_cap_MW_m2": 0.835
+      },
+      "force_balance": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 8750,
+          "max_abs": 6.373970701878448e-05,
+          "mean_abs": 1.0735154463715003e-05,
+          "min_abs": 3.2856024750660943e-18,
+          "rms": 1.4492187554304606e-05,
+          "signed_mean": 1.4853651626518618e-07
+        },
+        "objective": "ForceBalance",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 8750,
+          "max_abs": 994782.2552897461,
+          "mean_abs": 89440.85005957086,
+          "min_abs": 3.3065578525070514e-08,
+          "rms": 144383.81232171622,
+          "signed_mean": 20.351545821109774
+        },
+        "saved_endpoint_interpretation": "Force-balance error recomputed from the reloaded final H5 endpoint; this diagnostic does not claim optimizer convergence."
+      },
+      "label": "parent",
+      "nwl": {
+        "area_fraction_above_threshold": {
+          "0.88": 0,
+          "0.90": 0,
+          "0.92": 0,
+          "0.95": 0,
+          "1.00": 0
+        },
+        "area_weighted_average_MW_m2": 0.5085778592697237,
+        "area_weighted_p95_MW_m2": 0.7913266796800571,
+        "method": "desc.objectives.NeutronWallLoading",
+        "native_source_grid": {
+          "NFP": 2,
+          "class": "desc.grid.QuadratureGrid",
+          "num_nodes": 9801,
+          "num_rho": 9,
+          "num_theta": 33,
+          "num_zeta": 33,
+          "sym": false
+        },
+        "offset_m": 0.15,
+        "peak_MW_m2": 0.8355621683750724,
+        "peaking_factor": 1.642938545486175,
+        "sample_count": 1600,
+        "source_grid_argument": null,
+        "surface_area_full_torus_m2": 985.6045935005891,
+        "surface_grid": {
+          "NFP": 2,
+          "class": "desc.grid.LinearGrid",
+          "num_nodes": 1600,
+          "num_rho": 1,
+          "num_theta": 40,
+          "num_zeta": 40,
+          "sym": false
+        }
+      },
+      "quasisymmetry": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 6250,
+          "max_abs": 0.00029829095212331134,
+          "mean_abs": 1.7659208292455076e-05,
+          "min_abs": 0,
+          "rms": 2.9184110216312582e-05,
+          "signed_mean": 5.995204332975845e-20
+        },
+        "objective": "QuasisymmetryTripleProduct",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 6250,
+          "max_abs": 0.09448408369216484,
+          "mean_abs": 0.005593579363922327,
+          "min_abs": 0,
+          "rms": 0.009244108453613228,
+          "signed_mean": 1.8971491044794675e-17
+        }
+      },
+      "role": "parent",
+      "rotational_transform": {
+        "count": 51,
+        "max": 0.5380535980749235,
+        "mean": 0.4096166203792098,
+        "min": 0.1942497513465195,
+        "rho_count": 51,
+        "rms": 0.42313909951795176
+      },
+      "saved_output_only": true,
+      "slug": "parent",
+      "stored_equilibrium_resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "N_grid": 16
+      },
+      "wall": {
+        "area_weighted_mean_minus_requested_m": 0.004549211107646445,
+        "distance_method": "Matched-parameter Cartesian distance plus nearest sampled Cartesian plasma point after full-period replication.",
+        "matched_parameter_distance_m": {
+          "area_weighted_mean": 0.15454921110764644,
+          "count": 1600,
+          "max": 0.1812877188836875,
+          "mean": 0.15608071689674574,
+          "min": 0.12786516207074503,
+          "rms": 0.15639515974981635
+        },
+        "maximum_abs_matched_deviation_m": 0.031287718883687504,
+        "nearest_sampled_distance_m": {
+          "area_weighted_mean": 0.15454921110764644,
+          "count": 1600,
+          "max": 0.1812877188836875,
+          "mean": 0.15608071689674574,
+          "min": 0.12786516207074503,
+          "rms": 0.15639515974981635
+        },
+        "offset_tolerance_m": 0.02,
+        "requested_offset_m": 0.15
+      }
+    },
+    {
+      "NFP": 2,
+      "artifacts": {
+        "nwl_histogram_png": "stage-1_nwl_histogram.png",
+        "nwl_map_png": "stage-1_nwl_map.png",
+        "wall_h5": "stage-1_offset_0p15m.h5"
+      },
+      "aspect_ratio": 5.999967872450202,
+      "design_checks": {
+        "active_nwl_cap_MW_m2": 0.82
+      },
+      "force_balance": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 8750,
+          "max_abs": 6.747066611560216e-05,
+          "mean_abs": 1.0334842325535453e-05,
+          "min_abs": 3.431066250989161e-18,
+          "rms": 1.3949614171979155e-05,
+          "signed_mean": 1.6138916328962065e-07
+        },
+        "objective": "ForceBalance",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 8750,
+          "max_abs": 1094169.3508708484,
+          "mean_abs": 85775.43984245112,
+          "min_abs": 3.43736676461132e-08,
+          "rms": 136840.84420902113,
+          "signed_mean": -150.1657302571066
+        },
+        "saved_endpoint_interpretation": "Force-balance error recomputed from the reloaded final H5 endpoint; this diagnostic does not claim optimizer convergence."
+      },
+      "label": "stage-1",
+      "nwl": {
+        "area_fraction_above_threshold": {
+          "0.88": 0,
+          "0.90": 0,
+          "0.92": 0,
+          "0.95": 0,
+          "1.00": 0
+        },
+        "area_weighted_average_MW_m2": 0.5017174523237848,
+        "area_weighted_p95_MW_m2": 0.7899407620512668,
+        "method": "desc.objectives.NeutronWallLoading",
+        "native_source_grid": {
+          "NFP": 2,
+          "class": "desc.grid.QuadratureGrid",
+          "num_nodes": 9801,
+          "num_rho": 9,
+          "num_theta": 33,
+          "num_zeta": 33,
+          "sym": false
+        },
+        "offset_m": 0.15,
+        "peak_MW_m2": 0.8246442548888442,
+        "peaking_factor": 1.6436427536442515,
+        "sample_count": 1600,
+        "source_grid_argument": null,
+        "surface_area_full_torus_m2": 994.1258392425424,
+        "surface_grid": {
+          "NFP": 2,
+          "class": "desc.grid.LinearGrid",
+          "num_nodes": 1600,
+          "num_rho": 1,
+          "num_theta": 40,
+          "num_zeta": 40,
+          "sym": false
+        }
+      },
+      "quasisymmetry": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 6250,
+          "max_abs": 0.0002718167548599636,
+          "mean_abs": 2.0603047364572258e-05,
+          "min_abs": 0,
+          "rms": 3.34389009181135e-05,
+          "signed_mean": 4.2743586448068525e-20
+        },
+        "objective": "QuasisymmetryTripleProduct",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 6250,
+          "max_abs": 0.08480998793916507,
+          "mean_abs": 0.006428390330094362,
+          "min_abs": 0,
+          "rms": 0.010433325881714639,
+          "signed_mean": 1.3429257705865893e-17
+        }
+      },
+      "role": "stage1",
+      "rotational_transform": {
+        "count": 51,
+        "max": 0.540206817184151,
+        "mean": 0.410405284931492,
+        "min": 0.19133251780437238,
+        "rho_count": 51,
+        "rms": 0.42425905499722233
+      },
+      "saved_output_only": true,
+      "slug": "stage-1",
+      "stored_equilibrium_resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "N_grid": 16
+      },
+      "wall": {
+        "area_weighted_mean_minus_requested_m": 0.004645415271092357,
+        "distance_method": "Matched-parameter Cartesian distance plus nearest sampled Cartesian plasma point after full-period replication.",
+        "matched_parameter_distance_m": {
+          "area_weighted_mean": 0.15464541527109235,
+          "count": 1600,
+          "max": 0.18208210007240463,
+          "mean": 0.15611900471412896,
+          "min": 0.12143497118946246,
+          "rms": 0.15652502666802626
+        },
+        "maximum_abs_matched_deviation_m": 0.03208210007240464,
+        "nearest_sampled_distance_m": {
+          "area_weighted_mean": 0.15464541527109235,
+          "count": 1600,
+          "max": 0.18208210007240463,
+          "mean": 0.15611900471412896,
+          "min": 0.12143497118946246,
+          "rms": 0.15652502666802626
+        },
+        "offset_tolerance_m": 0.02,
+        "requested_offset_m": 0.15
+      }
+    },
+    {
+      "NFP": 2,
+      "artifacts": {
+        "nwl_histogram_png": "stage-2_nwl_histogram.png",
+        "nwl_map_png": "stage-2_nwl_map.png",
+        "wall_h5": "stage-2_offset_0p15m.h5"
+      },
+      "aspect_ratio": 5.999991306927032,
+      "design_checks": {
+        "active_nwl_cap_MW_m2": 0.805
+      },
+      "force_balance": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 8750,
+          "max_abs": 0.00015485708733980685,
+          "mean_abs": 1.993179331696559e-05,
+          "min_abs": 3.490639305497981e-18,
+          "rms": 2.869756800284698e-05,
+          "signed_mean": 2.929629843252084e-07
+        },
+        "objective": "ForceBalance",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 8750,
+          "max_abs": 2487808.740951664,
+          "mean_abs": 173159.96858226537,
+          "min_abs": 3.4643207846595274e-08,
+          "rms": 309626.50128802983,
+          "signed_mean": -1612.0487531768783
+        },
+        "saved_endpoint_interpretation": "Force-balance error recomputed from the reloaded final H5 endpoint; this diagnostic does not claim optimizer convergence."
+      },
+      "label": "stage-2",
+      "nwl": {
+        "area_fraction_above_threshold": {
+          "0.88": 0,
+          "0.90": 0,
+          "0.92": 0,
+          "0.95": 0,
+          "1.00": 0
+        },
+        "area_weighted_average_MW_m2": 0.4936980248465117,
+        "area_weighted_p95_MW_m2": 0.7847195228822421,
+        "method": "desc.objectives.NeutronWallLoading",
+        "native_source_grid": {
+          "NFP": 2,
+          "class": "desc.grid.QuadratureGrid",
+          "num_nodes": 9801,
+          "num_rho": 9,
+          "num_theta": 33,
+          "num_zeta": 33,
+          "sym": false
+        },
+        "offset_m": 0.15,
+        "peak_MW_m2": 0.8166970773850412,
+        "peaking_factor": 1.6542441660343856,
+        "sample_count": 1600,
+        "source_grid_argument": null,
+        "surface_area_full_torus_m2": 1004.2899870033013,
+        "surface_grid": {
+          "NFP": 2,
+          "class": "desc.grid.LinearGrid",
+          "num_nodes": 1600,
+          "num_rho": 1,
+          "num_theta": 40,
+          "num_zeta": 40,
+          "sym": false
+        }
+      },
+      "quasisymmetry": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 6250,
+          "max_abs": 0.00048501092855617305,
+          "mean_abs": 3.26855993675444e-05,
+          "min_abs": 0,
+          "rms": 5.454116875535981e-05,
+          "signed_mean": -8.593820099989102e-20
+        },
+        "objective": "QuasisymmetryTripleProduct",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 6250,
+          "max_abs": 0.14665948431205816,
+          "mean_abs": 0.009883598214878995,
+          "min_abs": 0,
+          "rms": 0.016492369991022958,
+          "signed_mean": -2.5845992013273645e-17
+        }
+      },
+      "role": "stage2",
+      "rotational_transform": {
+        "count": 51,
+        "max": 0.5409227057726791,
+        "mean": 0.41447092002769137,
+        "min": 0.2027867962515887,
+        "rho_count": 51,
+        "rms": 0.4273273719867781
+      },
+      "saved_output_only": true,
+      "slug": "stage-2",
+      "stored_equilibrium_resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "N_grid": 16
+      },
+      "wall": {
+        "area_weighted_mean_minus_requested_m": 0.004662615098521727,
+        "distance_method": "Matched-parameter Cartesian distance plus nearest sampled Cartesian plasma point after full-period replication.",
+        "matched_parameter_distance_m": {
+          "area_weighted_mean": 0.15466261509852172,
+          "count": 1600,
+          "max": 0.18342100508547518,
+          "mean": 0.15607082082186063,
+          "min": 0.11912241640566673,
+          "rms": 0.15650304031090703
+        },
+        "maximum_abs_matched_deviation_m": 0.033421005085475186,
+        "nearest_sampled_distance_m": {
+          "area_weighted_mean": 0.15466261509852172,
+          "count": 1600,
+          "max": 0.18342100508547518,
+          "mean": 0.15607082082186063,
+          "min": 0.11912241640566673,
+          "rms": 0.15650304031090703
+        },
+        "offset_tolerance_m": 0.02,
+        "requested_offset_m": 0.15
+      }
+    },
+    {
+      "NFP": 2,
+      "artifacts": {
+        "nwl_histogram_png": "stage-3_nwl_histogram.png",
+        "nwl_map_png": "stage-3_nwl_map.png",
+        "wall_h5": "stage-3_offset_0p15m.h5"
+      },
+      "aspect_ratio": 5.999995375858029,
+      "design_checks": {
+        "active_nwl_cap_MW_m2": 0.79
+      },
+      "force_balance": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 8750,
+          "max_abs": 0.0001500883983447438,
+          "mean_abs": 1.6561089804066604e-05,
+          "min_abs": 3.4492951942680754e-18,
+          "rms": 2.3383955848601797e-05,
+          "signed_mean": 1.9118629199795566e-07
+        },
+        "objective": "ForceBalance",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 8750,
+          "max_abs": 2388794.4710123814,
+          "mean_abs": 140798.83797422468,
+          "min_abs": 3.3914798985423134e-08,
+          "rms": 247325.1534612358,
+          "signed_mean": -446.98066833649915
+        },
+        "saved_endpoint_interpretation": "Force-balance error recomputed from the reloaded final H5 endpoint; this diagnostic does not claim optimizer convergence."
+      },
+      "label": "stage-3",
+      "nwl": {
+        "area_fraction_above_threshold": {
+          "0.88": 0,
+          "0.90": 0,
+          "0.92": 0,
+          "0.95": 0,
+          "1.00": 0
+        },
+        "area_weighted_average_MW_m2": 0.48557431996637385,
+        "area_weighted_p95_MW_m2": 0.77397954168482,
+        "method": "desc.objectives.NeutronWallLoading",
+        "native_source_grid": {
+          "NFP": 2,
+          "class": "desc.grid.QuadratureGrid",
+          "num_nodes": 9801,
+          "num_rho": 9,
+          "num_theta": 33,
+          "num_zeta": 33,
+          "sym": false
+        },
+        "offset_m": 0.15,
+        "peak_MW_m2": 0.7983251389771882,
+        "peaking_factor": 1.6440843474433993,
+        "sample_count": 1600,
+        "source_grid_argument": null,
+        "surface_area_full_torus_m2": 1010.1114944514868,
+        "surface_grid": {
+          "NFP": 2,
+          "class": "desc.grid.LinearGrid",
+          "num_nodes": 1600,
+          "num_rho": 1,
+          "num_theta": 40,
+          "num_zeta": 40,
+          "sym": false
+        }
+      },
+      "quasisymmetry": {
+        "definition": "ObjectiveFunction(term).compute_scaled(ObjectiveFunction.x(eq))",
+        "normalized": {
+          "count": 6250,
+          "max_abs": 0.0004060573428954583,
+          "mean_abs": 3.343139902942365e-05,
+          "min_abs": 0,
+          "rms": 5.29435110543358e-05,
+          "signed_mean": 7.299716386910404e-20
+        },
+        "objective": "QuasisymmetryTripleProduct",
+        "quadrature_weights_applied": true,
+        "raw": {
+          "count": 6250,
+          "max_abs": 0.11902326555010953,
+          "mean_abs": 0.009799390046777727,
+          "min_abs": 0,
+          "rms": 0.01551876769532457,
+          "signed_mean": 2.142286348316702e-17
+        }
+      },
+      "role": "stage3",
+      "rotational_transform": {
+        "count": 51,
+        "max": 0.5408424698720665,
+        "mean": 0.4094928917945741,
+        "min": 0.1988363667889161,
+        "rho_count": 51,
+        "rms": 0.4229700660338656
+      },
+      "saved_output_only": true,
+      "slug": "stage-3",
+      "stored_equilibrium_resolution": {
+        "L": 8,
+        "L_grid": 16,
+        "M": 8,
+        "M_grid": 16,
+        "N": 8,
+        "N_grid": 16
+      },
+      "wall": {
+        "area_weighted_mean_minus_requested_m": 0.0048015511336661765,
+        "distance_method": "Matched-parameter Cartesian distance plus nearest sampled Cartesian plasma point after full-period replication.",
+        "matched_parameter_distance_m": {
+          "area_weighted_mean": 0.15480155113366617,
+          "count": 1600,
+          "max": 0.18307849384716673,
+          "mean": 0.15620500876208554,
+          "min": 0.11635519734531831,
+          "rms": 0.15663543687266948
+        },
+        "maximum_abs_matched_deviation_m": 0.033644802654681685,
+        "nearest_sampled_distance_m": {
+          "area_weighted_mean": 0.15480155113366617,
+          "count": 1600,
+          "max": 0.18307849384716673,
+          "mean": 0.15620500876208554,
+          "min": 0.11635519734531831,
+          "rms": 0.15663543687266948
+        },
+        "offset_tolerance_m": 0.02,
+        "requested_offset_m": 0.15
+      }
+    }
+  ],
+  "comparison_figures": [
+    "reference_nwl_map.png",
+    "reference_nwl_histogram.png",
+    "qs-control_nwl_map.png",
+    "qs-control_nwl_histogram.png",
+    "parent_nwl_map.png",
+    "parent_nwl_histogram.png",
+    "stage-1_nwl_map.png",
+    "stage-1_nwl_histogram.png",
+    "stage-2_nwl_map.png",
+    "stage-2_nwl_histogram.png",
+    "stage-3_nwl_map.png",
+    "stage-3_nwl_histogram.png",
+    "comparison_nwl_maps.png",
+    "comparison_nwl_histograms.png",
+    "comparison_nwl_metrics.png",
+    "comparison_iota_qs_nwl.png"
+  ],
+  "definitions": {
+    "nwl_area_fraction": "Sum of first-wall area weights where measured NWL is strictly greater than the named threshold, divided by total area weight.",
+    "threshold_warning": "The values 0.88, 0.90, 0.92, 0.95, and 1.00 MW/m^2 are cutoffs; they are not measured area fractions or achieved peaks.",
+    "weighted_p95": "Smallest measured NWL whose cumulative sorted first-wall area weight reaches 95 percent."
+  },
+  "generated_utc": "2026-07-22T06:16:43.286883Z"
+}

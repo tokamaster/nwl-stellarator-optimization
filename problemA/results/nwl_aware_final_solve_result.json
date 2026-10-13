@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "message": "Optimization terminated successfully.",
+  "nit": 69,
+  "nfev": 70,
+  "njev": 70,
+  "optimality": 3.430806312106525e-11
+}
